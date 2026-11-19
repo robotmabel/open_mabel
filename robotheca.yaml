@@ -1,0 +1,37 @@
+# Proposed by Robotheca for this repository; reviewed and extended by the
+# MABEL authors.
+
+format_version: "1.0"
+name: MABEL
+summary: An open-source mobile robot with a swerve base, a lift and two arms with hands, for household tasks.
+category: home
+difficulty: advanced
+license:
+  hardware: CERN-OHL-S-2.0
+  software: Apache-2.0
+  documentation: CC-BY-4.0
+source:
+  repository: https://github.com/robotmabel/open_mabel
+tools:
+  - 3D printer
+  - Soldering iron
+  - Multimeter
+  - Sheet-metal fabrication service
+  - CAN adapter
+software:
+  framework: ROS 2
+  ros_version: jazzy
+files:
+  cad: hardware/cad/
+  bom: hardware/bom/
+  electronics: electrical/
+  urdf: ros/src/mabel_description/urdf/mabel_full.urdf
+  simulation: simulation/mabel_mujoco/
+  mujoco: simulation/mabel_mujoco/models/mabel_full.xml
+external_links:
+  - type: cad
+    url: https://github.com/robotmabel/open_mabel/tree/main/hardware/sheet_metal
+    label: Sheet-metal flat patterns (DXF)
+  - type: code
+    url: https://github.com/robotmabel/open_mabel/tree/main/firmware
+    label: Firmware
