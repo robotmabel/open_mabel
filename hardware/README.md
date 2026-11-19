@@ -5,6 +5,7 @@
 ```text
 bom/    Bill of materials + build guide (MABEL_Build_Guide.pdf, mabel_bom.pdf, data/*.csv)
 cad/    Full-robot assembly, STEP (zipped)
+sheet_metal/  Sheet-metal flat patterns (DXF, mm) + previews + parts.csv
 ```
 
 ## Build in four steps
@@ -30,7 +31,7 @@ cad/    Full-robot assembly, STEP (zipped)
 ## Sheet-metal fabrication
 
 Seven custom sheet-metal parts (eight pieces) make up the base and torso structure. Upload each part's
-flat pattern from the STEP assembly to a laser-cut sheet-metal service (the quotes below are online
+DXF flat pattern from [`sheet_metal/dxf/`](sheet_metal/) to a laser-cut sheet-metal service (the quotes below are online
 instant quotes; 1.02 is quoted in 5052-H32 aluminium, 0.080 in / 2.0 mm) and select the operations
 listed. Prices are USD per piece at each order quantity; the last column is the cost for one robot.
 
@@ -45,6 +46,7 @@ listed. Prices are USD per piece at each order quantity; the last column is the 
 | 2.05 | Arm mounting plate | Hardware insertion + tapping | 2 | $13.17 | $13.17 | $9.42 | $7.56 | $6.64 | $5.26 | $26.34 |
 | | **Set per robot** | | | **$450.47** | **$339.62** | **$243.59** | **$210.66** | **$193.03** | **$174.73** | **$450.47** |
 
+Files, layer convention and ordering notes: [`sheet_metal/README.md`](sheet_metal/README.md).
 Source: [`bom/data/machined.csv`](bom/data/machined.csv) — the same numbers feed the volume-pricing
 figure and the machined-parts table in [`bom/MABEL_Build_Guide.pdf`](bom/MABEL_Build_Guide.pdf).
 Ordering for ten robots instead of one cuts the set from $450.47 to $243.59 per robot.

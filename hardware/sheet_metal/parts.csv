@@ -1,0 +1,8 @@
+ref,part,file,qty,flat_x_mm,flat_y_mm,bends,material,thickness_mm,operations
+1.02,"Base sheet metal, lower",,1,,,0,5052-H32 aluminium,2.0,Laser cutting only (DXF not yet published)
+1.03,"Base sheet metal, upper",dxf/1.03_base_upper.dxf,1,557.4,557.4,4,5052-H32 aluminium,2.0 (CAD implies 3.2 - confirm),Bends; dimple forming; hardware insertion; tapping
+2.02,Lift-to-torso adapter,dxf/2.02_lift_to_torso_adapter.dxf,1,311.4,110.0,2,5052-H32 aluminium,2.0,Bends; dimple forming; hardware insertion; tapping
+2.03,Torso output plate,dxf/2.03_torso_output_plate.dxf,1,196.0,77.5,1,5052-H32 aluminium,2.0,Bend; hardware insertion; tapping
+2.04,Body bottom plate,dxf/2.04_body_bottom_plate.dxf,1,168.4,60.0,2,5052-H32 aluminium,2.0,Bends; hardware insertion; tapping
+2.05,Arm mounting plate,dxf/2.05_arm_mounting_plate.dxf,2,130.0,60.0,0,5052-H32 aluminium,2.0,Hardware insertion; tapping
+2.06,Neck mounting plate,dxf/2.06_neck_mounting_plate.dxf,1,115.4,60.0,2,5052-H32 aluminium,2.0,Bends only
