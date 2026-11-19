@@ -224,7 +224,8 @@ uv run train Mjlab-Lift-Cube-Mabel-WholeBody --env.scene.num-envs 4096   # whole
    [ORCA Hand](https://github.com/orcahand/orcahand_hardware), three REV MAXSwerve modules,
    and the lift column — see [`hardware/README.md`](hardware/README.md).
 3. **Make the MABEL parts.** Unzip `hardware/cad/MABEL_full_assembly.step.zip` and print or
-   machine the custom parts from the full-robot STEP assembly.
+   machine the custom parts from the full-robot STEP assembly. The seven sheet-metal parts, their
+   operations and volume quotes are listed in [`hardware/README.md`](hardware/README.md#sheet-metal-fabrication).
 4. **Fabricate the base carrier board.** Zip `electrical/Motherboard/fab/` and order it from
    any 2-layer PCB service; parts are in `electrical/exports/Motherboard_schematic.pdf`.
    See [`electrical/README.md`](electrical/README.md).
